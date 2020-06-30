@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+ /* Common CSS */
+img{
+    width: 95%;
+}
+h2{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: #848282;
+}
+/* Header-Section */
+.header-sec {
+    background-image: url(images/header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.half-width {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+    position: relative;
+    left: 0;
+    top: 97px;
+    height: auto;
+}
+.header-title {
+    position: relative;
+    left: 0;
+    top: 75px;
+    padding: 12%
+}
+.header-title h2 {
+    margin: 0px;
+}
+.header-title h1 {
+    color: #008000;;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}
+.header-title p {
+    color: #424242;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.simple-default-btn {
+    background-color: #008000;
+    color: white;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.simple-default-btn:hover {
+    color: #ffffff;
+    background: #111111;
+    z-index: 1;
+    border-color: #6AB4FF;
+    transition: all 0.5s ease-in-out;
+}
+/* Dream area */
+.dream-area {
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 780px;
+    overflow: hidden;
+    margin-bottom: 60px;
+}
+.half-width .title {
+    position: relative;
+    left: 0;
+    top: 130px;
+}
+p.about-description {
+    margin-bottom: 45px;
+}
+/* Work Section */
+.work-sec {
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+}
+.work-title h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: capitalize;
+}
+.work-img img {
+    width: 25%;
+    margin-left: 2%;
+    padding-left: 4%;
+}
+/* Testimonial */
+.testimonial-sec {
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-position: center;
+    margin-bottom: 80px;
+}
+.testimonial-title {
+    text-align: center;
+}
+.testimonial-title h2 {
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0.1;
+}
+.testimonial-title h4 {
+    margin: 0;
+    margin-bottom: 50px;
+    color: #bfbfbf;
+}
+.testimonial-title p {
+    margin-bottom: 70px;
+}
+.box {
+    background-color: #d43481;
+    padding: 15px 35px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    width: 45%;
+    margin: auto;
+    border-radius: 15px;
+}
+/* footer start */
+..main-footer {
+    background: transparent;
+    color: white;
+    margin-bottom: 60px;
+}
+.copyright-col {
+    padding: 0 15px;
+}
+.copyright-col p {
+    color: #848484;
+}
+.copyright-col a:hover {
+    color: #29b2fe;
+}
+.copyright-col p {
+    color: #848484;
+    text-align: center;
+}
